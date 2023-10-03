@@ -6,7 +6,7 @@
 }
 
 .title .query-text {
-    color: yellow;
+    color: rgb(255, 120, 154);
 }
 
 .movies-container {
@@ -19,13 +19,15 @@
 }
 
 .movies-container div {
-    width: 30%;
+    width: 23.5%;
     color: #fff;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: pink;
+    background-color: #131d30;
+    padding: 15px;
+    border-radius: 12px;
 }
 
 .movies-container div img {
@@ -33,29 +35,32 @@
 }
 
 .movies-container div img,
-.movies-container div h2,
 .movies-container div p {
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
+}
+
+.movies-container div h2 {
+    margin-bottom: 7px;
 }
 
 .movies-container div svg {
-    color: black; /* cor da estrelinha */
+    color: rgb(255, 214, 79); /* cor da estrelinha */
 }
 
 .movies-container div a {
-    background-color: red;
-    border: 2px solid yellowgreen;
-    border-radius: 4px;
+    background-color: #0077FF;
+    border: 1px solid #0077FF ;
+    border-radius: 7px;
     color: #fff;
-    padding: .3rem;
+    padding: .8rem;
     align-items: center;
     cursor: pointer;
     transition: .4s;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    font-weight: 500;
 }
 
 .movies-container div a:hover {
-    background-color: purple;
-    color: aqua;
+    background-color: #8c4eff;
+    border: 1px solid #8c4eff ;
 }

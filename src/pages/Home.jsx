@@ -19,7 +19,7 @@ const Home = () => {
     useEffect(() => {
         const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
         getTopRatedMovies(topRatedUrl);
-    }, [])
+    }, []);
 
     // impressão dos top 20 melhores filmes
     // return <div>{topMovies && topMovies.map((movie) => <p>{movie.title}</p>)}</div>;
