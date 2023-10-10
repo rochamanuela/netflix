@@ -14,10 +14,23 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(255, 61, 77);
+    color: rgb(88, 141, 255);
     transition: .5s;
 }
 
 a:hover {
     color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #192538;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
 }

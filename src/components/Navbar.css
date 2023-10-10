@@ -4,12 +4,18 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: #06090E;
+
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: 0px 20px 50px 0px #06090E;
 }
 
 #navbar h2 a {
     display: flex;
     align-items: center;
     gap: .5rem;
+    font-size: 30px;
 }
 
 #navbar form {
@@ -21,11 +27,20 @@
     padding: 0.2rem 0.8rem;
     border-radius: 4px;
     border: none;
+    background-color: #171230;
+
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px solid #272241;
+    transition: 0.3s;
 }
 
 #navbar form button {
-    background-color: red;
-    border: 2px solid yellowgreen;
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
     border-radius: 4px;
     color: #fff;
     padding: .3rem;
@@ -37,6 +52,16 @@
 }
 
 #navbar form button:hover {
-    background-color: purple;
-    color: aqua;
+    background-color: #8c4eff;
+    border: 2px solid #8c4eff;
+}
+  
+#navbar input:focus{
+    outline: none;
+    border: 2px solid #EDECF2;
+    background-color: #EDECF2;
+}
+
+#navbar input::placeholder {
+    color: #EDECF2;
 }

@@ -21,12 +21,10 @@ const Home = () => {
         getTopRatedMovies(topRatedUrl);
     }, []);
 
-    // impressão dos top 20 melhores filmes
-    // return <div>{topMovies && topMovies.map((movie) => <p>{movie.title}</p>)}</div>;
-
     return (
         <div className="container">
-            <h2 className="title">Melhores Filmes: </h2>
+            <br></br><br></br><br></br>
+            <h2 className="title">Melhores Filmes</h2>
             <div className="movies-container">
                 {topMovies.length === 0 && <p>Carregando...</p>}
                 {topMovies.length > 0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
